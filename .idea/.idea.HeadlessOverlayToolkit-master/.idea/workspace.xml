@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ada3c51-dc79-4d10-9c6f-37b9b0d902a3" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Editor/HOTK/HOTK_OverlayInspector.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding>
+                <marker date="1552403725490" expanded="false" signature="6:37" ph="..." />
+                <marker date="1552403725490" expanded="true" signature="119:4148" ph="{...}" />
+                <marker date="1552403725490" expanded="true" signature="215:4146" ph="{...}" />
+                <marker date="1552403725490" expanded="true" signature="260:450" ph="{...}" />
+                <marker date="1552403725490" expanded="true" signature="350:439" ph="{...}" />
+                <marker date="1552403725490" expanded="true" signature="680:2841" ph="{...}" />
+                <marker date="1552403725490" expanded="true" signature="1067:1489" ph="{...}" />
+                <marker date="1552403725490" expanded="true" signature="1721:2143" ph="{...}" />
+                <marker date="1552403725490" expanded="true" signature="2444:2739" ph="{...}" />
+                <marker date="1552403725490" expanded="true" signature="3006:3292" ph="{...}" />
+                <marker date="1552403725490" expanded="true" signature="3485:4088" ph="{...}" />
+                <marker date="1552403725490" expanded="true" signature="3786:3952" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/HOTK/HOTK_Overlay.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3525">
+              <caret line="320" column="18" selection-start-line="320" selection-start-column="18" selection-end-line="320" selection-end-column="18" />
+              <folding>
+                <marker date="1497493004000" expanded="false" signature="6:97" ph="..." />
+                <marker date="1497493004000" expanded="true" signature="140:32881" ph="{...}" />
+                <marker date="1497493004000" expanded="false" signature="147:377" ph="Custom Inspector Vars" />
+                <marker date="1497493004000" expanded="false" signature="383:2339" ph="Settings" />
+                <marker date="1497493004000" expanded="false" signature="2345:4440" ph="Interal Vars" />
+                <marker date="1497493004000" expanded="true" signature="4285:4385" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="4450:4581" ph="/// Check if anything has changed with the Overlay, and update the OpenVR system as necessary. ... " />
+                <marker date="1497493004000" expanded="true" signature="4606:5570" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="5595:5695" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="5842:6333" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="5953:6084" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="6196:6327" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="6339:6437" ph="/// When enabled, Create the Overlay and reset cached values. ... " />
+                <marker date="1497493004000" expanded="true" signature="6464:7167" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="7173:7249" ph="/// When disabled, Destroy the Overlay. ... " />
+                <marker date="1497493004000" expanded="true" signature="7277:7504" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="7510:7747" ph="/// Attach the Overlay to [device] at base position [point]. ... " />
+                <marker date="1497493004000" expanded="true" signature="7845:7908" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="7913:8200" ph="/// Attach the Overlay to [device] at [scale], and base position [point]. ... " />
+                <marker date="1497493004000" expanded="true" signature="8311:8377" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="8382:8733" ph="/// Attach the Overlay to [device] at [scale] size with offset [offset], and base position [point]. ... " />
+                <marker date="1497493004000" expanded="true" signature="8860:10311" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="9238:10305" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="10317:10558" ph="/// Update the Overlay's Position and Rotation, relative to the selected controller, attaching it to [point] with ... " />
+                <marker date="1497493004000" expanded="true" signature="10633:13738" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="10782:11998" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="12068:12177" ph="/* Apply position and rotation to Overlay anchor ... */" />
+                <marker date="1497493004000" expanded="true" signature="12200:13533" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="13800:14378" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="13904:14089" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="13987:14079" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="14187:14372" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="14270:14362" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="14384:14536" ph="/// Check if our Overlay's Anchor has changed, and AttachTo it if necessary. ... " />
+                <marker date="1497493004000" expanded="true" signature="14597:14918" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="14924:15036" ph="/// Update the Overlay's Position if necessary. ... " />
+                <marker date="1497493004000" expanded="true" signature="15099:15456" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="15462:15622" ph="/// Update the Overlay's Rotation if necessary. ... " />
+                <marker date="1497493004000" expanded="true" signature="15705:16330" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="15829:15943" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="16336:16458" ph="/// Update the Overlay's Texture if necessary. ... " />
+                <marker date="1497493004000" expanded="true" signature="16520:16904" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="16964:17209" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="17215:17456" ph="/// Compute a given Ray and determine if it hit an Overlay ... " />
+                <marker date="1497493004000" expanded="true" signature="17561:18567" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="17712:18083" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="17809:17917" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="17956:18073" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="18573:18698" ph="/// Search for an HOTK_TrackedDevice that is tracking the HMD, or spawn one if required. ... " />
+                <marker date="1497493004000" expanded="true" signature="18725:19426" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="19007:19075" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="19432:19569" ph="/// Update the Overlay's Position and return the resulting HmdMatrix34_t ... " />
+                <marker date="1497493004000" expanded="true" signature="19616:20756" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="19819:20210" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="20223:20750" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="20762:20935" ph="/// Animate this Overlay, based on it's AnimateOnGaze setting. ... " />
+                <marker date="1497493004000" expanded="true" signature="21000:23406" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="21023:22211" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="21135:21617" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="21186:21382" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="21407:21603" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="21719:22201" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="21770:21966" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="21991:22187" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="22224:23400" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="22336:22812" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="22386:22580" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="22604:22798" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="22914:23390" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="22964:23158" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="23182:23376" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="23412:23557" ph="/// Attempt to ComputerIntersection the HMD's Gaze and hit an Overlay ... " />
+                <marker date="1497493004000" expanded="true" signature="23603:24022" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="23709:23969" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="24028:24117" ph="/// Push Updates to our Overlay to the OpenVR System ... " />
+                <marker date="1497493004000" expanded="true" signature="24150:28557" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="24268:28476" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="24431:24550" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="24600:24779" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="25448:25646" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="25783:25867" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="26065:26230" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="26312:26494" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="26511:27412" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="26675:27157" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="27223:27398" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="27508:28293" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="27600:27959" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="27674:27894" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="28358:28466" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="28489:28551" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="28563:28767" ph="/// Update our texture if we are a RenderTexture. ... " />
+                <marker date="1497493004000" expanded="true" signature="28806:29258" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="29034:29197" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="29264:29572" ph="/* private bool PollNextEvent(ref VREvent_t pEvent) ... */" />
+                <marker date="1497493004000" expanded="false" signature="29578:32879" ph="Structs and Enums" />
+                <marker date="1497493004000" expanded="true" signature="29641:29773" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="29779:29874" ph="/// Used to determine where an Overlay should be attached. ... " />
+                <marker date="1497493004000" expanded="true" signature="29907:30431" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="29922:30014" ph="/// Attempts to attach the Overlay to the World ... " />
+                <marker date="1497493004000" expanded="true" signature="30038:30137" ph="/// Attempts to attach the Overlay to the Screen / HMD ... " />
+                <marker date="1497493004000" expanded="true" signature="30162:30264" ph="/// Attempts to attach the Overlay to the Left Controller ... " />
+                <marker date="1497493004000" expanded="true" signature="30297:30400" ph="/// Attempts to attach the Overlay to the Right Controller ... " />
+                <marker date="1497493004000" expanded="true" signature="30437:30563" ph="/// Used when attaching Overlays to Controllers, to determine the base attachment offset. ... " />
+                <marker date="1497493004000" expanded="true" signature="30595:32359" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="30610:30732" ph="/// Directly in the center at (0, 0, 0), facing upwards through the Trackpad. ... " />
+                <marker date="1497493004000" expanded="true" signature="30757:30885" ph="/// At the end of the controller, like a staff ornament, facing towards the center. ... " />
+                <marker date="1497493004000" expanded="true" signature="30913:31023" ph="/// At the bottom of the controller, facing away from the center. ... " />
+                <marker date="1497493004000" expanded="true" signature="31051:31159" ph="/// At the bottom of the controller, facing towards the center. ... " />
+                <marker date="1497493004000" expanded="true" signature="31194:31296" ph="/// Just above the Trackpad, facing away from the center. ... " />
+                <marker date="1497493004000" expanded="true" signature="31320:31412" ph="/// Just above thr Trackpad, facing the center. ... " />
+                <marker date="1497493004000" expanded="true" signature="31443:31534" ph="/// Just below the Trigger, facing the center. ... " />
+                <marker date="1497493004000" expanded="true" signature="31558:31659" ph="/// Just below the Trigger, facing away from the center. ... " />
+                <marker date="1497493004000" expanded="true" signature="31690:31829" ph="/// When holding the controller out vertically, Like &quot;Center&quot;, but &quot;Up&quot;, above the controller. ... " />
+                <marker date="1497493004000" expanded="true" signature="31850:31991" ph="/// When holding the controller out vertically, Like &quot;Center&quot;, but &quot;Down&quot;, below the controller. ... " />
+                <marker date="1497493004000" expanded="true" signature="32014:32164" ph="/// When holding the controller out vertically, Like &quot;Center&quot;, but &quot;Left&quot;, to the side of the controller. ... " />
+                <marker date="1497493004000" expanded="true" signature="32187:32338" ph="/// When holding the controller out vertically, Like &quot;Center&quot;, but &quot;Right&quot;, to the side of the controller. ... " />
+                <marker date="1497493004000" expanded="true" signature="32390:32864" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="32405:32481" ph="/// Don't animate this Overlay. ... " />
+                <marker date="1497493004000" expanded="true" signature="32504:32596" ph="/// Animate this Overlay by changing its Alpha. ... " />
+                <marker date="1497493004000" expanded="true" signature="32620:32704" ph="/// Animate this Overlay by scaling it. ... " />
+                <marker date="1497493004000" expanded="true" signature="32728:32835" ph="/// Animate this Overlay by changing its Alpha and scaling it. ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/HOTK/HOTK_TrackedDevice.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1597">
+              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+              <folding>
+                <marker date="1497493004000" expanded="false" signature="6:48" ph="..." />
+                <marker date="1497493004000" expanded="true" signature="97:3848" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="122:467" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="489:581" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="795:2975" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="828:903" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="926:2039" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="1005:2029" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="1049:2015" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="2527:2840" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="2853:2969" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="3000:3100" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="3247:3517" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="3338:3379" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="3470:3511" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="3545:3635" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="3664:3754" ph="{...}" />
+                <marker date="1497493004000" expanded="true" signature="3780:3846" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/HOTK/HOTK_Overlay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/HOTK/HOTK_OverlayInspector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HOTK/HOTK_TrackedDevice.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="97" />
+    <option name="y" value="152" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ada3c51-dc79-4d10-9c6f-37b9b0d902a3" name="Default Changelist" comment="" />
+      <created>1552404168986</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552404168986</updated>
+      <workItem from="1552404172156" duration="464000" />
+      <workItem from="1552455530087" duration="51000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="515000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="97" y="152" width="1440" height="780" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536232" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/HOTK/HOTK_OverlayInspector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <marker date="1552403725490" expanded="false" signature="6:37" ph="..." />
+            <marker date="1552403725490" expanded="true" signature="119:4148" ph="{...}" />
+            <marker date="1552403725490" expanded="true" signature="215:4146" ph="{...}" />
+            <marker date="1552403725490" expanded="true" signature="260:450" ph="{...}" />
+            <marker date="1552403725490" expanded="true" signature="350:439" ph="{...}" />
+            <marker date="1552403725490" expanded="true" signature="680:2841" ph="{...}" />
+            <marker date="1552403725490" expanded="true" signature="1067:1489" ph="{...}" />
+            <marker date="1552403725490" expanded="true" signature="1721:2143" ph="{...}" />
+            <marker date="1552403725490" expanded="true" signature="2444:2739" ph="{...}" />
+            <marker date="1552403725490" expanded="true" signature="3006:3292" ph="{...}" />
+            <marker date="1552403725490" expanded="true" signature="3485:4088" ph="{...}" />
+            <marker date="1552403725490" expanded="true" signature="3786:3952" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HOTK/HOTK_Overlay.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3525">
+          <caret line="320" column="18" selection-start-line="320" selection-start-column="18" selection-end-line="320" selection-end-column="18" />
+          <folding>
+            <marker date="1497493004000" expanded="false" signature="6:97" ph="..." />
+            <marker date="1497493004000" expanded="true" signature="140:32881" ph="{...}" />
+            <marker date="1497493004000" expanded="false" signature="147:377" ph="Custom Inspector Vars" />
+            <marker date="1497493004000" expanded="false" signature="383:2339" ph="Settings" />
+            <marker date="1497493004000" expanded="false" signature="2345:4440" ph="Interal Vars" />
+            <marker date="1497493004000" expanded="true" signature="4285:4385" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="4450:4581" ph="/// Check if anything has changed with the Overlay, and update the OpenVR system as necessary. ... " />
+            <marker date="1497493004000" expanded="true" signature="4606:5570" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="5595:5695" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="5842:6333" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="5953:6084" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="6196:6327" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="6339:6437" ph="/// When enabled, Create the Overlay and reset cached values. ... " />
+            <marker date="1497493004000" expanded="true" signature="6464:7167" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="7173:7249" ph="/// When disabled, Destroy the Overlay. ... " />
+            <marker date="1497493004000" expanded="true" signature="7277:7504" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="7510:7747" ph="/// Attach the Overlay to [device] at base position [point]. ... " />
+            <marker date="1497493004000" expanded="true" signature="7845:7908" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="7913:8200" ph="/// Attach the Overlay to [device] at [scale], and base position [point]. ... " />
+            <marker date="1497493004000" expanded="true" signature="8311:8377" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="8382:8733" ph="/// Attach the Overlay to [device] at [scale] size with offset [offset], and base position [point]. ... " />
+            <marker date="1497493004000" expanded="true" signature="8860:10311" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="9238:10305" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="10317:10558" ph="/// Update the Overlay's Position and Rotation, relative to the selected controller, attaching it to [point] with ... " />
+            <marker date="1497493004000" expanded="true" signature="10633:13738" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="10782:11998" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="12068:12177" ph="/* Apply position and rotation to Overlay anchor ... */" />
+            <marker date="1497493004000" expanded="true" signature="12200:13533" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="13800:14378" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="13904:14089" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="13987:14079" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="14187:14372" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="14270:14362" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="14384:14536" ph="/// Check if our Overlay's Anchor has changed, and AttachTo it if necessary. ... " />
+            <marker date="1497493004000" expanded="true" signature="14597:14918" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="14924:15036" ph="/// Update the Overlay's Position if necessary. ... " />
+            <marker date="1497493004000" expanded="true" signature="15099:15456" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="15462:15622" ph="/// Update the Overlay's Rotation if necessary. ... " />
+            <marker date="1497493004000" expanded="true" signature="15705:16330" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="15829:15943" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="16336:16458" ph="/// Update the Overlay's Texture if necessary. ... " />
+            <marker date="1497493004000" expanded="true" signature="16520:16904" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="16964:17209" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="17215:17456" ph="/// Compute a given Ray and determine if it hit an Overlay ... " />
+            <marker date="1497493004000" expanded="true" signature="17561:18567" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="17712:18083" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="17809:17917" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="17956:18073" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="18573:18698" ph="/// Search for an HOTK_TrackedDevice that is tracking the HMD, or spawn one if required. ... " />
+            <marker date="1497493004000" expanded="true" signature="18725:19426" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="19007:19075" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="19432:19569" ph="/// Update the Overlay's Position and return the resulting HmdMatrix34_t ... " />
+            <marker date="1497493004000" expanded="true" signature="19616:20756" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="19819:20210" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="20223:20750" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="20762:20935" ph="/// Animate this Overlay, based on it's AnimateOnGaze setting. ... " />
+            <marker date="1497493004000" expanded="true" signature="21000:23406" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="21023:22211" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="21135:21617" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="21186:21382" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="21407:21603" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="21719:22201" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="21770:21966" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="21991:22187" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="22224:23400" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="22336:22812" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="22386:22580" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="22604:22798" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="22914:23390" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="22964:23158" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="23182:23376" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="23412:23557" ph="/// Attempt to ComputerIntersection the HMD's Gaze and hit an Overlay ... " />
+            <marker date="1497493004000" expanded="true" signature="23603:24022" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="23709:23969" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="24028:24117" ph="/// Push Updates to our Overlay to the OpenVR System ... " />
+            <marker date="1497493004000" expanded="true" signature="24150:28557" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="24268:28476" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="24431:24550" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="24600:24779" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="25448:25646" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="25783:25867" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="26065:26230" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="26312:26494" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="26511:27412" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="26675:27157" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="27223:27398" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="27508:28293" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="27600:27959" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="27674:27894" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="28358:28466" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="28489:28551" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="28563:28767" ph="/// Update our texture if we are a RenderTexture. ... " />
+            <marker date="1497493004000" expanded="true" signature="28806:29258" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="29034:29197" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="29264:29572" ph="/* private bool PollNextEvent(ref VREvent_t pEvent) ... */" />
+            <marker date="1497493004000" expanded="false" signature="29578:32879" ph="Structs and Enums" />
+            <marker date="1497493004000" expanded="true" signature="29641:29773" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="29779:29874" ph="/// Used to determine where an Overlay should be attached. ... " />
+            <marker date="1497493004000" expanded="true" signature="29907:30431" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="29922:30014" ph="/// Attempts to attach the Overlay to the World ... " />
+            <marker date="1497493004000" expanded="true" signature="30038:30137" ph="/// Attempts to attach the Overlay to the Screen / HMD ... " />
+            <marker date="1497493004000" expanded="true" signature="30162:30264" ph="/// Attempts to attach the Overlay to the Left Controller ... " />
+            <marker date="1497493004000" expanded="true" signature="30297:30400" ph="/// Attempts to attach the Overlay to the Right Controller ... " />
+            <marker date="1497493004000" expanded="true" signature="30437:30563" ph="/// Used when attaching Overlays to Controllers, to determine the base attachment offset. ... " />
+            <marker date="1497493004000" expanded="true" signature="30595:32359" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="30610:30732" ph="/// Directly in the center at (0, 0, 0), facing upwards through the Trackpad. ... " />
+            <marker date="1497493004000" expanded="true" signature="30757:30885" ph="/// At the end of the controller, like a staff ornament, facing towards the center. ... " />
+            <marker date="1497493004000" expanded="true" signature="30913:31023" ph="/// At the bottom of the controller, facing away from the center. ... " />
+            <marker date="1497493004000" expanded="true" signature="31051:31159" ph="/// At the bottom of the controller, facing towards the center. ... " />
+            <marker date="1497493004000" expanded="true" signature="31194:31296" ph="/// Just above the Trackpad, facing away from the center. ... " />
+            <marker date="1497493004000" expanded="true" signature="31320:31412" ph="/// Just above thr Trackpad, facing the center. ... " />
+            <marker date="1497493004000" expanded="true" signature="31443:31534" ph="/// Just below the Trigger, facing the center. ... " />
+            <marker date="1497493004000" expanded="true" signature="31558:31659" ph="/// Just below the Trigger, facing away from the center. ... " />
+            <marker date="1497493004000" expanded="true" signature="31690:31829" ph="/// When holding the controller out vertically, Like &quot;Center&quot;, but &quot;Up&quot;, above the controller. ... " />
+            <marker date="1497493004000" expanded="true" signature="31850:31991" ph="/// When holding the controller out vertically, Like &quot;Center&quot;, but &quot;Down&quot;, below the controller. ... " />
+            <marker date="1497493004000" expanded="true" signature="32014:32164" ph="/// When holding the controller out vertically, Like &quot;Center&quot;, but &quot;Left&quot;, to the side of the controller. ... " />
+            <marker date="1497493004000" expanded="true" signature="32187:32338" ph="/// When holding the controller out vertically, Like &quot;Center&quot;, but &quot;Right&quot;, to the side of the controller. ... " />
+            <marker date="1497493004000" expanded="true" signature="32390:32864" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="32405:32481" ph="/// Don't animate this Overlay. ... " />
+            <marker date="1497493004000" expanded="true" signature="32504:32596" ph="/// Animate this Overlay by changing its Alpha. ... " />
+            <marker date="1497493004000" expanded="true" signature="32620:32704" ph="/// Animate this Overlay by scaling it. ... " />
+            <marker date="1497493004000" expanded="true" signature="32728:32835" ph="/// Animate this Overlay by changing its Alpha and scaling it. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HOTK/HOTK_TrackedDevice.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1597">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding>
+            <marker date="1497493004000" expanded="false" signature="6:48" ph="..." />
+            <marker date="1497493004000" expanded="true" signature="97:3848" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="122:467" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="489:581" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="795:2975" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="828:903" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="926:2039" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="1005:2029" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="1049:2015" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="2527:2840" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="2853:2969" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="3000:3100" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="3247:3517" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="3338:3379" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="3470:3511" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="3545:3635" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="3664:3754" ph="{...}" />
+            <marker date="1497493004000" expanded="true" signature="3780:3846" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

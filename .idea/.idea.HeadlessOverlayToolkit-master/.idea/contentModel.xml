@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\user\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\user\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_HeadlessOverlayToolkit-master.236708368.00" t="ExcludeRecursive" />
+    <e p="C:\Users\user\Desktop\HeadlessOverlayToolkit-master" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets\Editor" t="Include">
+        <e p="HOTK" t="Include">
+          <e p="HOTK_OverlayInspector.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Assets\HOTK" t="Include">
+        <e p="Example Content" t="Include">
+          <e p="HOTK_DemoDesktopCameraScript.cs" t="Include" />
+        </e>
+        <e p="HOTK_Overlay.cs" t="Include" />
+        <e p="HOTK_TrackedDevice.cs" t="Include" />
+        <e p="HOTK_TrackedDeviceManager.cs" t="Include" />
+      </e>
+      <e p="Assets\Plugins" t="Include">
+        <e p="openvr_api.cs" t="Include" />
+      </e>
+      <e p="Assets\SteamVR" t="Include">
+        <e p="Editor" t="Include">
+          <e p="SteamVR_Editor.cs" t="Include" />
+          <e p="SteamVR_Settings.cs" t="Include" />
+          <e p="SteamVR_Update.cs" t="Include" />
+        </e>
+        <e p="readme.txt" t="Include" />
+        <e p="Resources" t="Include">
+          <e p="SteamVR_Blit.shader" t="Include" />
+          <e p="SteamVR_BlitFlip.shader" t="Include" />
+          <e p="SteamVR_HiddenArea.shader" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="SteamVR.cs" t="Include" />
+          <e p="SteamVR_Camera.cs" t="Include" />
+          <e p="SteamVR_CameraFlip.cs" t="Include" />
+          <e p="SteamVR_CameraMask.cs" t="Include" />
+          <e p="SteamVR_Controller.cs" t="Include" />
+          <e p="SteamVR_ControllerManager.cs" t="Include" />
+          <e p="SteamVR_Ears.cs" t="Include" />
+          <e p="SteamVR_ExternalCamera.cs" t="Include" />
+          <e p="SteamVR_Frustum.cs" t="Include" />
+          <e p="SteamVR_GameView.cs" t="Include" />
+          <e p="SteamVR_Overlay.cs" t="Include" />
+          <e p="SteamVR_Render.cs" t="Include" />
+          <e p="SteamVR_TrackedObject.cs" t="Include" />
+          <e p="SteamVR_Utils.cs" t="Include" />
+        </e>
+      </e>
+      <e p="HeadlessOverlayToolkit-master.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
