@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 2b413ce63b041994698b45cbd8508d41
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - carmera: {instanceID: 0}
+  - overlayOBJ: {instanceID: 0}
+  executionOrder: -16100
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
