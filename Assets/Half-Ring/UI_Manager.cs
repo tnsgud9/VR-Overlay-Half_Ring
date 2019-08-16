@@ -15,6 +15,9 @@ public class UI_Manager : MonoBehaviour
         category[0].transform.GetChild(0).GetComponent<Text>().color=new Color32(0,157,224,255);
         contents[0].SetActive(true);
     }
+
+    #region Category;
+    //[ UI Category ]
     public void SelectButton(int index)
     {
         ButtonNotSelect();
@@ -31,4 +34,29 @@ public class UI_Manager : MonoBehaviour
             contents[i].SetActive(false);
         }
     }
+    #endregion Category;
+
+
+
+
+    #region OverlayActiveToggle
+    //[ Overlay Active Toggle ]
+    //SettingManager.cs using overlayToggle boolean.
+    public void OverlayActive()
+    {
+        if(SettingManager.overlayToggle==true)
+        {
+
+        }
+        else
+        {
+
+        }
+        
+        
+    }
+
+
+
+    #endregion OverlayActiveToggle
 }

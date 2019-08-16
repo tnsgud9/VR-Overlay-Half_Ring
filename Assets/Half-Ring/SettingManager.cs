@@ -8,7 +8,7 @@ public class SettingManager : OverlayRing
 
 
     public static bool RawInputService = true;
-    bool overlayToggle=true;
+    public static bool overlayToggle=true;
 
     void Awake()
     {
