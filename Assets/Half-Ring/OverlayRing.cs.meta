@@ -6,7 +6,7 @@ MonoImporter:
   defaultReferences:
   - carmera: {instanceID: 0}
   - overlayOBJ: {instanceID: 0}
-  executionOrder: -16100
+  executionOrder: -20000
   icon: {instanceID: 0}
   userData: 
   assetBundleName: 

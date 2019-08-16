@@ -7,14 +7,28 @@ public class UI_Manager : MonoBehaviour
 {
 
     public GameObject[] category;
-    public GameObject[] contents;
+    public GameObject[] contentsField;
 
+    public GameObject[] image;
+    public GameObject[] color;
     void Start()
     {
         ButtonNotSelect();
         category[0].transform.GetChild(0).GetComponent<Text>().color=new Color32(0,157,224,255);
-        contents[0].SetActive(true);
+        contentsField[0].SetActive(true);
+
+        image[0].GetComponent<Image>().color = new Color32(22, 22, 22, 255);
+        color[2].GetComponent<Image>().color = new Color32(22, 22, 22, 255);
     }
+
+    #region ContentsCommonsMethod
+    public void ContentsNotSelect(GameObject[] element)
+    {
+        for (int i = 0; i < element.Length; i++)
+            element[i].GetComponent<Image>().color = new Color32(34, 34, 34, 255);
+    }
+
+    #endregion ContentsCommonsMethod
 
     #region Category;
     //[ UI Category ]
@@ -22,7 +36,7 @@ public class UI_Manager : MonoBehaviour
     {
         ButtonNotSelect();
         category[index].transform.GetChild(0).GetComponent<Text>().color = new Color32(0, 157, 224, 255);
-        contents[index].SetActive(true);
+        contentsField[index].SetActive(true);
 
     }
 
@@ -31,32 +45,50 @@ public class UI_Manager : MonoBehaviour
         for (int i = 0; i < category.Length; i++)
         {
             category[i].transform.GetChild(0).GetComponent<Text>().color = new Color32(231, 231, 231,255);
-            contents[i].SetActive(false);
+            contentsField[i].SetActive(false);
         }
     }
     #endregion Category;
 
+    //[Overlay Active Toggle]
+    //SettingManager.cs using overlayToggle boolean and use method SettingManager.OverayActive();
+    //
+
+    #region Image;
+    //[ Select Image ]
+
+    public void SelectImage(int index)
+    {
+        ContentsNotSelect(image);
+        image[index].GetComponent<Image>().color = new Color32(22, 22, 22, 255);
+    }
+
+    #endregion Image;
+
+    #region Color
+    //[ Select Color ]
+
+    public void SelectColor(int index)
+    {
+        ContentsNotSelect(color);
+        color[index].GetComponent<Image>().color = new Color32(22, 22, 22, 255);
+    }
+
+    #endregion Color;
 
 
-
+    /*
     #region OverlayActiveToggle
     //[ Overlay Active Toggle ]
     //SettingManager.cs using overlayToggle boolean.
     public void OverlayActive()
     {
-        if(SettingManager.overlayToggle==true)
-        {
-
-        }
-        else
-        {
-
-        }
-        
-        
+        GetComponent<SettingManager>().OverayActive();
+        Debug.LogWarning("Overlay Status  : " + SettingManager.overlayToggle);
     }
-
-
-
     #endregion OverlayActiveToggle
+    */
+
+
+
 }
