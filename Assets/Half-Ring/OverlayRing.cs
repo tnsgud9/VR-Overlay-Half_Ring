@@ -21,8 +21,6 @@ public class OverlayRing : MonoBehaviour
     void Update () {
         //Debug.Log("HMD Rotation : " + carmera.transform.eulerAngles);
         overlayOBJ.gameObject.transform.rotation = Quaternion.Euler(0 , 0, 360f-carmera.transform.eulerAngles.z);
-
-
     }
 
 

@@ -12,7 +12,7 @@ public class ImgTexture
 
 public class SettingManager : OverlayRing 
 {
-
+    public Text StatusNotice;
     public ImgTexture[] Options;
 
     public static int ImageCode=0;
@@ -55,6 +55,7 @@ public class SettingManager : OverlayRing
         overlayOBJ.SetActive(UpLowToggle);
     }
 
+
     public void OverlayChange()
     {
         overlayOBJ.GetComponent<HOTK_Overlay>().OverlayTexture = Options[ImageCode].TexColor[ColorCode];
@@ -68,3 +69,4 @@ public class SettingManager : OverlayRing
 
     }
 }
+
