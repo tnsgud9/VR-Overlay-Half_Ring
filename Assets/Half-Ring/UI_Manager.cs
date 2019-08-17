@@ -5,9 +5,11 @@ using UnityEngine.UI;
 
 public class UI_Manager : MonoBehaviour
 {
+    public GameObject SettingManagerOBJ;
 
     public GameObject[] category;
     public GameObject[] contentsField;
+    public GameObject[] HowtoForm;
 
     public GameObject[] image;
     public GameObject[] color;
@@ -52,7 +54,6 @@ public class UI_Manager : MonoBehaviour
 
     //[Overlay Active Toggle]
     //SettingManager.cs using overlayToggle boolean and use method SettingManager.OverayActive();
-    //
 
     #region Image;
     //[ Select Image ]
@@ -61,6 +62,9 @@ public class UI_Manager : MonoBehaviour
     {
         ContentsNotSelect(image);
         image[index].GetComponent<Image>().color = new Color32(22, 22, 22, 255);
+        SettingManager.ImageCode = index;
+        SettingManagerOBJ.GetComponent<SettingManager>().OverlayChange();
+        //SettingManager.OverlayChange();
     }
 
     #endregion Image;
@@ -72,9 +76,27 @@ public class UI_Manager : MonoBehaviour
     {
         ContentsNotSelect(color);
         color[index].GetComponent<Image>().color = new Color32(22, 22, 22, 255);
+        SettingManager.ColorCode = index;
+        SettingManagerOBJ.GetComponent<SettingManager>().OverlayChange();
+        //SettingManager.OverlayChange();
     }
 
     #endregion Color;
+
+    #region HowToUse
+    //[ How to use ]
+
+    public void SelectHowtoButton(int index)
+    {
+        ContentsNotSelect(HowtoForm);
+        HowtoForm[index].GetComponent<Image>().color = new Color32(22, 22, 22, 255);
+        SettingManagerOBJ.GetComponent<SettingManager>().OverlayChange();
+        //SettingManager.OverlayChange();
+    }
+
+
+
+    #endregion HowToUse
 
 
     /*

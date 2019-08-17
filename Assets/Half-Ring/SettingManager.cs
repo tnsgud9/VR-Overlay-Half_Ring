@@ -1,19 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityRawInput;
 
-public class SettingManager : MonoBehaviour 
+[System.Serializable]
+public class ImgTexture
 {
-    public static int ImageCode;
-    public static int ColorCode;
+    public Texture[] TexColor;
+}
+
+public class SettingManager : OverlayRing 
+{
+
+    public ImgTexture[] Options;
+
+    public static int ImageCode=0;
+    public static int ColorCode=2;
 
     public static bool RawInputService = true;
     public static bool OverlayToggle = true;
     public static bool UpLowToggle = true;
 
 
-    public GameObject overlayInspector;
 
     void Awake()
     {
@@ -26,34 +35,30 @@ public class SettingManager : MonoBehaviour
         // RawKeyInput.OnKeyUp += OverayActive(Space);
         // if (RawKeyInput.IsKeyDown(RawKey.Space)) OverayActive();
 
-        if ((OverlayRing.carmera.gameObject.transform.rotation.x * 10 <= -3.7f ||
-             OverlayRing.carmera.gameObject.transform.rotation.x * 10 >= 4f)   && UpLowToggle == true)
-            OverlayRing.overlayOBJ.SetActive(false);
+        if ((carmera.gameObject.transform.rotation.x * 10 <= -3.7f ||
+             carmera.gameObject.transform.rotation.x * 10 >= 4f)   && UpLowToggle == true)
+            overlayOBJ.SetActive(false);
         else
-            OverlayRing.overlayOBJ.SetActive(OverlayToggle);
+            overlayOBJ.SetActive(OverlayToggle);
 
     }
 
     public void OverayActive()
     {
         OverlayToggle = !OverlayToggle;
-        OverlayRing.overlayOBJ.SetActive(OverlayToggle);
+        overlayOBJ.SetActive(OverlayToggle);
     }
 
     public void PovUpperLowerCheck()
     {
         UpLowToggle = !UpLowToggle;
-        OverlayRing.overlayOBJ.SetActive(UpLowToggle);
+        overlayOBJ.SetActive(UpLowToggle);
     }
 
-    public static void OverlayChange()
+    public void OverlayChange()
     {
-
+        overlayOBJ.GetComponent<HOTK_Overlay>().OverlayTexture = Options[ImageCode].TexColor[ColorCode];
     }
-
-
-
-
 
 
     private void OnApplicationQuit()
