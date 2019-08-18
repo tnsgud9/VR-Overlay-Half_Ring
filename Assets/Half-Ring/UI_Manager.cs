@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using System;
 public class UI_Manager : MonoBehaviour
 {
     public GameObject SettingManagerOBJ;
@@ -21,13 +21,14 @@ public class UI_Manager : MonoBehaviour
 
         image[0].GetComponent<Image>().color = new Color32(22, 22, 22, 255);
         color[2].GetComponent<Image>().color = new Color32(22, 22, 22, 255);
+        HowtoForm[0].GetComponent<Image>().color = new Color32(139, 139, 139, 255);
     }
 
     #region ContentsCommonsMethod
-    public void ContentsNotSelect(GameObject[] element)
+    public void ContentsNotSelect(GameObject[] element, int colorCode)
     {
         for (int i = 0; i < element.Length; i++)
-            element[i].GetComponent<Image>().color = new Color32(34, 34, 34, 255);
+            element[i].GetComponent<Image>().color = new Color32(Convert.ToByte(colorCode), Convert.ToByte(colorCode), Convert.ToByte(colorCode), 255);
     }
 
     #endregion ContentsCommonsMethod
@@ -60,7 +61,7 @@ public class UI_Manager : MonoBehaviour
 
     public void SelectImage(int index)
     {
-        ContentsNotSelect(image);
+        ContentsNotSelect(image, 34);
         image[index].GetComponent<Image>().color = new Color32(22, 22, 22, 255);
         SettingManager.ImageCode = index;
         SettingManagerOBJ.GetComponent<SettingManager>().OverlayChange();
@@ -74,7 +75,7 @@ public class UI_Manager : MonoBehaviour
 
     public void SelectColor(int index)
     {
-        ContentsNotSelect(color);
+        ContentsNotSelect(color ,34);
         color[index].GetComponent<Image>().color = new Color32(22, 22, 22, 255);
         SettingManager.ColorCode = index;
         SettingManagerOBJ.GetComponent<SettingManager>().OverlayChange();
@@ -88,9 +89,14 @@ public class UI_Manager : MonoBehaviour
 
     public void SelectHowtoButton(int index)
     {
-        ContentsNotSelect(HowtoForm);
-        HowtoForm[index].GetComponent<Image>().color = new Color32(22, 22, 22, 255);
-        SettingManagerOBJ.GetComponent<SettingManager>().OverlayChange();
+
+        for (int i = 0; i < HowtoForm.Length; i++)
+        {
+            HowtoForm[i].GetComponent<Image>().color = new Color32(255, 255, 255, 255);
+            HowtoForm[i].transform.GetChild(0).gameObject.SetActive(false);
+        }
+        HowtoForm[index].GetComponent<Image>().color = new Color32(139, 139, 139, 255);
+        HowtoForm[index].transform.GetChild(0).gameObject.SetActive(true);
         //SettingManager.OverlayChange();
     }
 
