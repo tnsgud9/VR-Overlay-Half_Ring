@@ -165,11 +165,11 @@ public class SteamVR_Camera : MonoBehaviour
 
 		// Ensure game view camera hdr setting matches
 		var headCam = head.GetComponent<Camera>();
-		if (headCam != null)
-		{
-			headCam.hdr = camera.hdr;
-			headCam.renderingPath = camera.renderingPath;
-		}
+		//if (headCam != null)
+		//{
+		//	headCam.hdr = camera.hdr;
+		//	headCam.renderingPath = camera.renderingPath;
+		//}
 #endif
 		if (ears == null)
 		{
