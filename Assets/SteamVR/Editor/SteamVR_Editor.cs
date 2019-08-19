@@ -27,7 +27,7 @@ public class SteamVR_Editor : Editor
 	void OnEnable()
 	{
 		var resourcePath = GetResourcePath();
-#if UNITY_5_0
+#if UNITY_5_0 
 		logo = Resources.LoadAssetAtPath<Texture2D>(resourcePath + "logo.png");
 #else
 		logo = AssetDatabase.LoadAssetAtPath<Texture2D>(resourcePath + "logo.png");
