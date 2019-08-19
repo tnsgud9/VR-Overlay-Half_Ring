@@ -9,7 +9,7 @@ using UnityEngine;
 [RequireComponent(typeof(Camera))]
 public class SteamVR_GameView : MonoBehaviour
 {
-#if (UNITY_5_3 || UNITY_5_2 || UNITY_5_1 || UNITY_5_0) // DEPRECATED in Unity 5.4+
+#if (UNITY_5_3 || UNITY_5_2 || UNITY_5_1 || UNITY_5_0 || UNITY_2018) // DEPRECATED in Unity 5.4+
 	public float scale = 1.5f;
 	public bool drawOverlay = true;
 
@@ -35,7 +35,7 @@ public class SteamVR_GameView : MonoBehaviour
 		var y1 = -aspect;
 
 		var blitMaterial = SteamVR_Camera.blitMaterial;
-		blitMaterial.mainTexture = SteamVR_Camera.GetSceneTexture(camera.hdr);
+		blitMaterial.mainTexture = SteamVR_Camera.GetSceneTexture(camera.allowHDR);
 
 		GL.PushMatrix();
 		GL.LoadOrtho();
